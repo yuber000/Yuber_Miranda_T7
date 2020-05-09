@@ -25,3 +25,11 @@ var mary = {
   codeNinja: true,
   country: "UK"
 }
+
+// 5. Write try catch 
+try {
+  adddlert("Welcome guest!");
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.message;
+}
